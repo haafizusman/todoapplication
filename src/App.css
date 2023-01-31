@@ -1,3 +1,6 @@
+body{
+  background-color: #282c34;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +38,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.heading{
+  font-size: 3em;
+  color: brown;
+  font-weight: lighter;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 18px;
+  background-color: lightblue;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+button {
+  background-color: azure;
+  color: brown;
+  width: 100px;
+  height: 40px;
+  border-radius: 18px;
+}
+
+.todoyou {
+  color: thistle;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2em;
+}
+
+.btn {
+  width: 100px;
+  font-weight: bolder;
+}
+
+.show{
+  color: burlywood;
+  font-size: 1.2em;
 }
